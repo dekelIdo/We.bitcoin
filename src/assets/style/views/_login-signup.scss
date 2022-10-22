@@ -55,7 +55,7 @@
                     font-size: 2rem;
                     color: #37c437;
                     
-                    @include for-medium-layout{
+                    @include for-large-layout{
                         margin-top: 40px;
                         font-size: 3rem;
                     }
