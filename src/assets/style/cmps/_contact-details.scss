@@ -1,0 +1,143 @@
+.contact-details {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    background: rgba(255, 255, 255, .05);
+    border-radius: 20px;
+    box-shadow: inset 0 1px 1px rgb(255 255 255 / 12%);
+    justify-content: center;
+    align-items: center;
+    width: 470px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    position: relative;
+    -webkit-box-shadow: 0px 0px 45px 8px rgb(255 255 255/ 20%);
+    -moz-box-shadow: 0px 0px 45px 8px rgb(255 255 255/ 20%);
+
+    .details-actions {
+        display: flex;
+
+        .edit-contact-btn {
+            background-image: linear-gradient(281deg, #4f5dff, #2954d4);
+            background-size: 101%;
+            border: 1px solid transparent;
+            border-radius: 6px;
+            box-shadow: 0 10px 30px 0 rgb(111 57 205 / 30%);
+            color: #fff;
+            display: block;
+            font-family: Roboto, sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+            // height: 20px;
+            opacity: .8;
+            outline: none;
+            padding: 10px;
+            position: relative;
+            text-decoration: none;
+            text-transform: uppercase;
+            transition: opacity .2s linear;
+            width: 100px;
+            cursor: pointer;
+
+            &.transfer-btn {
+                background-image: linear-gradient(281deg, #4dac60, #449844);
+            }
+        }
+
+    }
+
+    .go-back-icon {
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        height: 1.5em;
+        width: 1.5em;
+    }
+
+    h1 {
+        position: absolute;
+        top: 10px;
+        color: $clr1;
+    }
+
+    h2 {
+        padding: 10px;
+    }
+
+    .contact-mail {
+        padding: 10px;
+        font-size: 1.3rem;
+    }
+
+    .contact-phone {
+        padding: 10px;
+        font-size: 1.2rem;
+    }
+
+    a {
+        padding: 10px;
+    }
+
+    .contact-details-image {
+        margin-top: 10px;
+        align-items: center;
+        border-radius: 50%;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        object-fit: cover;
+        height: 150px;
+        width: 150px;
+        margin-bottom: 10px;
+    }
+
+    .details-activities {
+        width: 100%;
+
+        .activities-container {
+            min-height: 75px;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 7px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            border-bottom: 1px $clr1 solid;
+
+            .left-container {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                span {
+                    color: $clr1;
+                }
+
+                .preview-price {
+                    color: #fff;
+                }
+            }
+
+            .right-container {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                text-align: right;
+
+                span {
+                    color: $clr1 ;
+                }
+
+                .preview-status {
+                    color: #fff;
+                }
+
+                .approved {
+                    color: green;
+                }
+            }
+        }
+    }
+}

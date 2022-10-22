@@ -1,0 +1,155 @@
+.contact-page {
+    display: flex;
+    flex-direction: column;
+
+    
+    h1 {
+        text-align: center;
+        padding: 20px;
+        color: $clr1;
+    }
+
+    .main-content {
+        display: flex;
+        flex-direction: column-reverse;
+        @include for-medium-layout{
+            flex-direction: row;
+        }
+    }
+
+    .add-contact-btn {
+        margin-top: 10px;
+        background-image: linear-gradient(281deg, #5c9756, #6bb38f);
+        background-size: 101%;
+        border: 1px solid transparent;
+        border-radius: 6px;
+        box-shadow: 0 10px 30px 0 rgba(62, 205, 57, 0.3);
+        color: #fff;
+        display: block;
+        font-family: Roboto, sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        opacity: .8;
+        outline: none;
+        padding: 15px;
+        position: relative;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: opacity .2s linear;
+        width: 190px;
+        cursor: pointer;
+    }
+
+    .left-container {
+        padding: 10px;
+        margin: 10px;
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        // justify-content: space-between;
+        @include for-medium-layout{
+            width: 50%;
+            h3{
+                font-size: 2.4rem;
+            }
+        }
+        
+        & .filter-left-container {
+            display: none;
+            @include for-medium-layout{
+                display: block;
+            }
+            & .filter-title {
+                h3 {
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 2rem;
+                    color: rgb(255, 255, 255);
+                    padding-bottom: 10px;
+                    border-bottom: 1px solid $clr1;
+                }
+
+                h4 {
+                    color: $clr1;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 1.2rem;
+                    font-weight: 300;
+                    padding-bottom: 5px;
+                    padding-top: 10px;
+                }
+            }
+        }
+
+        & .filter-right-container {
+            margin-top: 20px;
+            @include for-medium-layout{
+                margin-top: 70px;
+            }
+            & .filter-title {
+                h3 {
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 2.4rem;
+                    color: rgb(255, 255, 255);
+                    padding-bottom: 10px;
+                    // border-bottom: 1px solid $clr1;
+                }
+
+                h2 {
+
+                    color: $clr1;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 1.4rem;
+                    font-weight: 300;
+                    padding-bottom: 5px;
+                    padding-top: 10px;
+                }
+
+                // height: 180px;
+            }
+        }
+    }
+
+    .contact-list {
+        padding: 10px;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        @include for-medium-layout{
+            height: 50%;
+        }
+        overflow-y: auto;
+        background: rgba(255, 255, 255, .05);
+        // border-radius: 20px;
+        box-shadow: inset 0 1px 1px rgb(255 255 255 / 12%);
+        // width: 600px;
+        .list-enter-active,
+        .list-leave-active {
+          transition: all 0.5s ease;
+        }
+        .list-enter-from,
+        .list-leave-to {
+          opacity: 0;
+          transform: translateX(30px);
+        }
+
+        &::-webkit-scrollbar {
+            width: 15px;
+            height: 15px;
+            border-radius: 10px;
+            // padding-right: 10px;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            // padding-right: 10px;
+            border-radius: 10px;
+            background: rgb(255 255 255 / 12%);
+        }
+
+        &::-webkit-scrollbar-track {
+            // padding-right: 10px;
+            border-radius: 10px;
+            background: rgb(255 255 255 / 12%);
+        }
+    }
+}

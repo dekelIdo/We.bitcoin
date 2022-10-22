@@ -1,0 +1,33 @@
+.contact-filter {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+
+    input {
+        margin: auto;
+        background-color: rgb(218, 218, 218);
+        border: none;
+        border-radius: 2px;
+        box-shadow: 0 2px 10px 0 rgb(31 32 51 / 10%);
+        color: rgba(31, 32, 51, .8);
+        font-size: 1.4rem;
+        height: 25px;
+        line-height: 18px;
+        margin: 0;
+        outline: none;
+        padding: 15px 16px 15px 4px;
+        position: relative;
+        transition: all .2s ease;
+        width: 100%;
+        // border-radius: 40px;
+    }
+}
+
+.filter-for-mobile{
+    width: 95%;
+    margin: auto;
+    display: block;
+    @include for-medium-layout{
+        display: none;
+    }
+}

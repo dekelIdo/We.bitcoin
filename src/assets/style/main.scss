@@ -1,0 +1,24 @@
+// setups
+@import './setup/typography';
+@import './setup/variables';
+@import './setup/mixins';
+@import './setup/functions';
+
+/* basics */
+@import './base/basic';
+@import './base/helpers';
+@import './base/layout';
+
+// cmps
+@import './cmps/contact-list';
+@import './cmps/app-header';
+@import './cmps/contact-preview';
+@import './cmps/contact-details';
+@import './cmps/chart-app';
+@import './cmps/contact-filter';
+@import './cmps/contact-edit';
+@import './cmps/transfer-funds';
+
+//views
+@import './views/home';
+@import './views/login-signup';
