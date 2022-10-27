@@ -57,4 +57,7 @@ You can view your different contacts, filter them by number or name. In addition
 You can CRUD your contacts any time.
 
  <img width="937" alt="C" src="https://user-images.githubusercontent.com/109578899/198311225-75ae8de9-dcb8-4148-a5bd-105b4bdf49b4.png">
-
+ 
+ ## Some mobile!
+Just a taste of the mobile experience. I used different mixins, conditional rendering, and the "mobile first" approach. You can also see that there is an interactive side menu for routing.
+<img width="937" alt="Mobile" src="https://user-images.githubusercontent.com/109578899/198312523-3cb431b4-88d0-46f2-be7b-fb1dc57e356b.png">
