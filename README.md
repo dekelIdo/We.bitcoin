@@ -3,7 +3,7 @@
 An app I wrote with Vue, in which you can transfer money to your fake contacts, CRUDL them and get information about the current Bitcoin value, the market price and more!
 [Here is my project link](https://dekelido.github.io/We.bitcoin/#/ "WeBitcoin link")
 
-<img width="682" alt="wallet" src="https://user-images.githubusercontent.com/109578899/198308269-39460965-1e3a-4dcf-867d-64d156c08d6a.png">
+<img width="937" alt="wallet" src="https://user-images.githubusercontent.com/109578899/198308269-39460965-1e3a-4dcf-867d-64d156c08d6a.png">
 
 ## Recommended IDE Setup
 
@@ -26,10 +26,6 @@ A small App that was built in a few days, which provides the user a list of cont
 - Presenting data in a dashboard using charts & 3rd side library
 - CRUDL of contacts
 - Responsive and well designed
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
 
 ## Getting started
 Clone the project or dowload the files on top.
@@ -55,6 +51,6 @@ Runs the app in the development mode. Open http://localhost:3000 to view it in t
 ## Contacts page
 You can view your different contacts, filter them by number or name. In addition, you can transform money to any contact, and see your activities in your home page/contact details
 
- <img width="675" alt="contacts" src="https://user-images.githubusercontent.com/109578899/198306918-30fe1533-3ff3-4f57-914e-d1877883df67.png">
+ <img width="937" alt="contacts" src="https://user-images.githubusercontent.com/109578899/198306918-30fe1533-3ff3-4f57-914e-d1877883df67.png">
  
  
