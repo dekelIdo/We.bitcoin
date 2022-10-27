@@ -29,10 +29,17 @@ A small App that was built in a few days, which provides the user a list of cont
 
 See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-## Project Setup
+## Getting started
+Clone the project or dowload the files on top.
 
 ```sh
-npm install
+git clone https://github.com/OriBenAmram/Bitcoin-Vue.git
+```
+
+Open the terminal and enter the following line to run it locally on your computer:
+
+```sh
+npm run dev
 ```
 
 ### Compile and Hot-Reload for Development
