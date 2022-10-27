@@ -33,7 +33,7 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 Clone the project or dowload the files on top.
 
 ```sh
-git clone https://github.com/OriBenAmram/Bitcoin-Vue.git
+git clone https://github.com/dekelIdo/We.bitcoin.git
 ```
 
 Open the terminal and enter the following line to run it locally on your computer:
