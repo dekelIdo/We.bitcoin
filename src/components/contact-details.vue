@@ -4,7 +4,7 @@
     <RouterLink to="/contact"
       ><img
         class="go-back-icon"
-        :src="`../../public/images/go-back-icon.svg`"
+        :src="`./images/go-back-icon.svg`"
         alt=""
     /></RouterLink>
     <h1>Contact Details</h1>

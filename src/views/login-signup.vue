@@ -50,7 +50,7 @@
     <div class="right-container">
       <img
         class="go-back-icon"
-        :src="`../../public/images/bit-home.jpeg`"
+        :src="`./images/bit-home.jpeg`"
         alt=""
       />
     </div>

@@ -3,7 +3,7 @@
     <RouterLink :to="`/contact/${toContact._id}`"
       ><img
         class="go-back-icon"
-        :src="`../../public/images/go-back-icon.svg`"
+        :src="`./images/go-back-icon.svg`"
         alt=""
     /></RouterLink>
     <h1 class="label">Transfer funds</h1>
