@@ -3,10 +3,11 @@
 An app I wrote with Vue, in which you can transfer money to your fake contacts, CRUDL them and get information about the current Bitcoin value, the market price and more!
 [Here is my project link](https://dekelido.github.io/We.bitcoin/#/ "WeBitcoin link")
 
-<img width="937" alt="wallet" src="https://user-images.githubusercontent.com/109578899/198308269-39460965-1e3a-4dcf-867d-64d156c08d6a.png">
+<img width="504" alt="we bitcoin home" src="https://user-images.githubusercontent.com/109578899/199724384-33b35c9a-48bf-4e1d-b83d-69a4953510e2.png">
 
 ## We.bitcoin Description
 A small App that was built in a few days, which provides the user a list of contacts that they can transfer money to, a basic CRUDL and some information about the value of theirs fake bank currency in Bitcoin.
+
 
 ### Technologies
 - Vue chart.js
